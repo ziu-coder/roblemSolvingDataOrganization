@@ -1,9 +1,9 @@
 # Problem Solving & Data Organization - C#
 
 ## Thông tin sinh viên
-- Họ tên: [ĐIỀN HỌ TÊN]
-- Mã số học viên: [ĐIỀN MSHV]
-- Lớp: [ĐIỀN LỚP]
+- Họ tên: Nguyễn Việt Anh
+- Mã số học viên: 11410123065
+- Lớp: K26ISTG01
 
 ## Công nghệ
 - C# / .NET 8
@@ -56,16 +56,3 @@ dotnet test
 | BFS | Queue | O(V+E) | O(V) |
 | A* | Priority queue | phụ thuộc heuristic; heap O(log V)/operation | O(V) |
 
-## Benchmark
-Chạy `dotnet run --project src/ProblemSolving.csproj`. Chương trình in thời gian trung bình của BFS và A*.
-Không nên ghi số benchmark cố định vào báo cáo trước khi chạy trên máy nộp bài vì kết quả phụ thuộc phần cứng/runtime.
-
-## Git gợi ý
-```bash
-git init
-git add .
-git commit -m "Initial project structure"
-git branch -M main
-git remote add origin <YOUR_GITHUB_REPO_URL>
-git push -u origin main
-```
